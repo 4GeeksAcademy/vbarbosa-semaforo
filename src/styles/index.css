@@ -9,3 +9,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.topSemaforo{
+    width: 20px;
+    height: 150px;
+    position: relative;
+}
+
+.semaforo {
+    width: 150px;
+    height: 450px;
+    border-radius: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.luzVerde{
+    background-color: green;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.luzNaranja{
+    background-color: orange;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.luzRoja{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.glow {
+    box-shadow: 2px 2px 60px 20px rgb(255, 255, 130);
+}
