@@ -24,27 +24,39 @@
     justify-content: center;
 }
 
-.luzVerde{
-    background-color: green;
+.luzRoja{
     width: 120px;
     height: 120px;
     border-radius: 100%;
+    border: none;
+    background-color: red;
+    align-self: center;
+}
+
+.luzRoja.on {
+    box-shadow: 2px 2px 50px 20px rgb(255, 255, 130);
 }
 
 .luzNaranja{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: none;
     background-color: orange;
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
 }
 
-.luzRoja{
-    background-color: red;
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
+.luzNaranja.on {
+    box-shadow: 2px 2px 50px 20px rgb(255, 255, 130);
 }
 
-.glow {
-    box-shadow: 2px 2px 60px 20px rgb(255, 255, 130);
+.luzVerde{
+    width: 120px;
+    height: 120px;
+    border: none;
+    border-radius: 100%;
+    background-color: green;
+}
+
+.luzVerde.on{
+    box-shadow: 2px 2px 50px 20px rgb(255, 255, 130);
 }
